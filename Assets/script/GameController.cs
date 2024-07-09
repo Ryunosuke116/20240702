@@ -40,4 +40,21 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("Start");
     }
 
+    public void ResetGameData()
+    {
+        SceneData.score = 0;
+        SceneData.totalBlocks = 0;
+
+        //ƒuƒƒbƒN‚ğ‰Šú‰»
+        GameObject[] blocks = GameObject.FindGameObjectsWithTag("Block");
+        foreach (GameObject block in blocks)
+        {
+            Destroy(block);
+        }
+        if(ScoreScript.instance != null)
+        {
+            ScoreScript.instance.ScoreManager(-ScoreScript.instance.GetCurrentScore()); 
+        }   
+    }
+
 }

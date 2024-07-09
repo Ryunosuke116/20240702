@@ -524,6 +524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 4320879209371688213, guid: 63cde92e5d827de418355f2efb503142, type: 3}
+      propertyPath: m_TagString
+      value: player
+      objectReference: {fileID: 0}
     - target: {fileID: 7054060014264208320, guid: 63cde92e5d827de418355f2efb503142, type: 3}
       propertyPath: m_Material
       value: 
@@ -833,6 +837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockGenerator
       objectReference: {fileID: 0}
+    - target: {fileID: 6675211080279854378, guid: f3152eb36ccc1e8449b64f4ce29ae26f, type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -989,6 +997,10 @@ PrefabInstance:
     - target: {fileID: 6903911088345823601, guid: 251a999791daa164e9e1339ea1c1d7c6, type: 3}
       propertyPath: m_Name
       value: Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6903911088345823601, guid: 251a999791daa164e9e1339ea1c1d7c6, type: 3}
+      propertyPath: m_TagString
+      value: Score
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
